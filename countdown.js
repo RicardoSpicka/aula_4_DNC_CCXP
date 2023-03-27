@@ -31,6 +31,11 @@ const contagerRegressiva = (tempo) => {
     const id = setInterval(contar, 1000);
 }
 
+function highligthcard(selector){
+    var element = document.querySelector(selector)
+    element.classList.toggle("card-highlight")
+}
+
 contagerRegressiva((60*60*24) + 30);
 
 

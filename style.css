@@ -113,6 +113,11 @@ footer img{
     margin: auto;
 }
 
+.card-highlight{
+    box-shadow: 4px 4px 8px 1px #00003f;
+    border: 1px solid #ccc;
+}
+
 button{
     width: 45rem;
     height: 12rem;
